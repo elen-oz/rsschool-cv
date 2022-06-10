@@ -61,8 +61,11 @@ h1 {
   list-style: none;
 }
 
+
+
 .footer {
   color: #f9c0ab;
+  font-style: italic;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -91,11 +94,10 @@ html {
 .main-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 80px 0; /* здесь потом удалить */
+  padding: 0 80px 0; 
 }
 
 .section {
-  /* padding: 0 80px 0; здесь потом удалить */
   width: 50%;
 }
 
@@ -134,3 +136,8 @@ ul {
   border-radius: 200px;
   box-shadow: 0 0 5px #666; 
 }
+
+.img {
+  margin: 0 5px 0;
+}
+
