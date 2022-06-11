@@ -17,7 +17,7 @@
       <nav class="nav">
         <ul class="nav-list">
           <li class="section-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="section-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="section-item"><a href="#about" class="nav-link">About</a></li>
           <li class="section-item"><a href="#skills" class="nav-link">Skills</a></li>
           <li class="section-item"><a href="#courses" class="nav-link">Courses</a></li>
           <li class="section-item"><a href="#projects" class="nav-link">Projects</a></li>
@@ -44,16 +44,17 @@
       <section class="section" id="contacts">
         <h2 class="section-title">Contacts</h2>
         <ul>
-          <li><img class="img" src="./assets/svg/placeholder.png" alt="location" width="20"><a class="link" href="https://www.google.com/maps/place/Råsundavägen+11,+169+67+Solna/@59.3631378,18.0187407,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9dbb57ae91fd:0xf833a3e9eff366e3!8m2!3d59.3631378!4d18.0209294>" target="_blank">Stockholm, Sweden</a></li>
-          <li><img class="img" src="./assets/svg/email.png" alt="E-mail" width="20"><a class="link" href = "mailto: ozerova.lenka@gmail.com" target="_blank">Email</a></li>
-          <li><img class="img" src="./assets/svg/github.png" alt="Github" width="20"><a class="link" href="https://github.com/elen-oz" target="_blank">Github</a></li>
-          <li><img class="img" src="./assets/svg/linkedin.png" alt="Linkedin" width="20"><a class="link" href = "www.linkedin.com/in/elen-oz" target="_blank">Linkedin</a></li>
-          <li><img class="img" src="./assets/svg/telegram.png" alt="Telegram" width="20"><a class="link" href="https://telegram.me/elenoz" target="_blank">Telegram</a></li>
+          <li><img class="img" src="./assets/svg/placeholder.svg" alt="location" width="20"><a class="link" href="https://www.google.com/maps/place/Råsundavägen+11,+169+67+Solna/@59.3631378,18.0187407,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9dbb57ae91fd:0xf833a3e9eff366e3!8m2!3d59.3631378!4d18.0209294>" target="_blank">Stockholm, Sweden</a></li>
+          <li><img class="img" src="./assets/svg/email.svg" alt="E-mail" width="20"><a class="link" href = "mailto: ozerova.lenka@gmail.com" target="_blank">Email</a></li>
+          <li><img class="img" src="./assets/svg/github.svg" alt="Github" width="20"><a class="link" href="https://github.com/elen-oz" target="_blank">Github</a></li>
+          <li><img class="img" src="./assets/svg/linkedin.svg" alt="Linkedin" width="20"><a class="link" href = "www.linkedin.com/in/elen-oz" target="_blank">Linkedin</a></li>
+          <li><img class="img" src="./assets/svg/telegram.svg" alt="Telegram" width="20"><a class="link" href="https://telegram.me/elenoz" target="_blank">Telegram</a></li>
+          <li><img class="img" src="./assets/svg/discord.svg" alt="Discord" width="20">elen-oz#4619</li>
         </ul>
       </section>
-      <section class="section" id="summary">
-        <h2 class="section-title">Summary</h2>
-        <p>Параграф с невероятным рассказом о себе, который занимает несколько строк и органично смотрится на странице не сильно привлекая на себя внимание, потому что его все равно никто не читает</p>
+      <section class="section" id="about">
+        <h2 class="section-title">About</h2>
+        <p>Beginner front-end developer who is improving in creating <em>fast, intuitive and well-functioning</em> applications using modern technologies. <br> I am a <em>goal-oriented</em> and inquisitive person who is always glad to learn something new. Analytical mindset is my forte.</p>
       </section>
       <section class="section" id="skills">
         <h2 class="section-title">Skills</h2>
@@ -72,12 +73,34 @@
         </ul>
       </section>
       <section class="section" id="projects">
-        <h2 class="section-title">Projects</h2>
+        <h2 class="section-title">Code</h2>
         <ul>
-          <li>Project_1</li>
-          <li>Project_2</li>
-          <li>Project_3</li>
-          <li>Project_4</li>
+          <code class="code">
+            <p>const countChars = (str, char) => {</p>
+            <p>let i = 0;</p>
+            <p>let count = 0;</p>
+            <p>while (i < str.length) {</p>
+            <p>if (str[i].toLowerCase() === char.toLowerCase()) {</p>
+            <p>count = count + 1;</p>
+            <p>}</p>
+            <p>i = i + 1;</p>
+            <p>}</p>
+            <p>return count;</p>
+            <p>};</p>
+          </code>
+          <!-- <pre>
+const countChars = (str, char) => {
+  let i = 0;
+  let count = 0;
+  while (i < str.length) {
+    if (str[i].toLowerCase() === char.toLowerCase()) {
+    count = count + 1;
+    }
+    i = i + 1;
+  }
+  return count;
+};
+          </pre> -->
         </ul>
       </section>
       <section class="section" id="languages">
