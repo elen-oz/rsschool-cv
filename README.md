@@ -1,3 +1,1 @@
-git branch# rsschool-cv
-
-[link to CV](https://elen-oz.github.io/rsschool-cv/cv)
+[link to CV.md](https://elen-oz.github.io/rsschool-cv/cv)
