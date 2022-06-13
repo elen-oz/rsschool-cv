@@ -1,6 +1,8 @@
 # Elena Ozerova
 
 *Student*
+
+
 [link to CV](https://elen-oz.github.io/rsschool-cv/cv)
 ------------------
 
