@@ -49,6 +49,8 @@ I am a goal-oriented and inquisitive person who is alwaysglad to learn something
 
 ## Code example
 
+
+ ```
 const countChars = (str, char) => {
 
   let i = 0;
@@ -70,3 +72,5 @@ const countChars = (str, char) => {
   return count;
   
 };
+```
+
