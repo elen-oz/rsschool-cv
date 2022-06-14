@@ -7,12 +7,12 @@
 }
 
 .main {
-  background-color: #fff1ed;
+  /* background-color: #fff1ed; */
   padding: 0 0 30px 0;
 }
 
 .footer {
-  font-size: 12px;
+  font-size: 16px;
   background-color: #43708e;
 }
 
@@ -45,6 +45,21 @@ h1 {
 .container {
   max-width: 940px;
   margin: 0 auto;
+}
+
+.name-section {
+  padding-left: 15px;
+}
+
+.text-align-left {
+  padding-left: 15px;
+  border-left-style: solid;
+  border-color: #284e67;
+}
+
+.text-align-right {
+  text-align: right;
+  padding-right: 15px;
 }
 
 .divider {
@@ -102,8 +117,8 @@ html {
 }
 
 .container-profile {
-  padding: 0 250px 0;
-  text-align: center;
+  padding-right: 50px;
+  text-align: right;
 }
 
 .section {
@@ -111,7 +126,7 @@ html {
 }
 
 .main-section {
-  padding: 50px 0 0 0;
+  padding-top: 50px;
 }
 
 .section-title {
